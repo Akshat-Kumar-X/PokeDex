@@ -1,6 +1,5 @@
 {
-    "routes": [
-      { "src": "/", "dest": "/" },
-      { "src": "/pokemon/:name", "dest": "/" }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
